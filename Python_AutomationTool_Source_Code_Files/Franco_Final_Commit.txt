@@ -1,0 +1,46 @@
+aditya@L-CJ1DG32:~/Documents/Franco/finalDemonstration/CodeMileSton1/Franco_deployables$ git add Python_Source_Code_Files/
+aditya@L-CJ1DG32:~/Documents/Franco/finalDemonstration/CodeMileSton1/Franco_deployables$ git commit -m "Execution Starts from phase1demo file"
+[master 5997abe] Execution Starts from phase1demo file
+ 3 files changed, 588 insertions(+)
+ create mode 100755 Python_Source_Code_Files/ConMatchTrack.py
+ create mode 100755 Python_Source_Code_Files/helper.py
+ create mode 100755 Python_Source_Code_Files/phase1DemoAlgo.py
+aditya@L-CJ1DG32:~/Documents/Franco/finalDemonstration/CodeMileSton1/Franco_deployables$ git pull -u origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/intelitechsols/francoMileStone2Demo
+ * branch            master     -> FETCH_HEAD
+   01e846b..934a94a  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ README.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 README.md 
+aditya@L-CJ1DG32:~/Documents/Franco/finalDemonstration/CodeMileSton1/Franco_deployables$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	build/
+	consTrackerAlgo.py
+	helper.py
+	phase1DemoAlgo.spec
+
+nothing added to commit but untracked files present (use "git add" to track)
+aditya@L-CJ1DG32:~/Documents/Franco/finalDemonstration/CodeMileSton1/Franco_deployables$ git push -u origin master
+Username for 'https://github.com': intelitechsols
+Password for 'https://intelitechsols@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 8.91 KiB | 0 bytes/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+To https://github.com/intelitechsols/francoMileStone2Demo.git
+   934a94a..98712aa  master -> master
+Branch master set up to track remote branch master from origin.
+aditya@L-CJ1DG32:~/Documents/Franco/finalDemonstration/CodeMileSton1/Franco_deployables$ 
+
