@@ -1,0 +1,5 @@
+Install following packages :-
+OpenCv 2.4.0, Python, numpy, scipy, scikitlearn, matplotlib, sar, vim, aptitude
+
+Run Below Instruction with logo to detect in the video :-
+python phase1demoalgo.py --logoimgpath =/home/username/logo.jpg  /home/cmt/test.avi
